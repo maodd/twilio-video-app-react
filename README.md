@@ -31,7 +31,9 @@ If you want to use `yarn` to install dependencies, first run the [yarn import](h
 
 The app is deployed to Twilio using the Twilio CLI. Install twilio-cli with:
 
-    $ npm install -g twilio-cli
+    $ npm install -g twilio-cli@2.0.0
+
+Note: At the moment 2.1.0 is broken, no prompt for inputs, use 2.0.0 instead.
 
 Login to the Twilio CLI. You will be prompted for your Account SID and Auth Token, both of which you can find on the dashboard of your [Twilio console](https://twilio.com/console).
 
